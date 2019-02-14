@@ -1,6 +1,6 @@
 name := """play-angular-standalone"""
 
-version := "1.1.0"
+version := "2.0.0"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
@@ -10,5 +10,5 @@ routesGenerator := play.sbt.routes.RoutesKeys.InjectedRoutesGenerator
 
 libraryDependencies ++= Seq(
   guice,
-  "com.pauldijou"     %% "jwt-play" % "0.14.1"
+  "com.pauldijou"     %% "jwt-play" % "2.0.0"
 )
