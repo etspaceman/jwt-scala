@@ -7,8 +7,8 @@ import Dependencies._
 import scala.sys.process._
 import com.typesafe.sbt.pgp.PgpKeys._
 
-val previousVersion = "1.1.0"
-val buildVersion = "2.0.0"
+val previousVersion = "2.0.0"
+val buildVersion = "2.0.1"
 
 val projects = Seq("coreProject", "playJsonProject", "json4sNativeProject", "json4sJacksonProject", "sprayJsonProject", "circeProject", "upickleProject", "argonautProject", "playProject")
 
